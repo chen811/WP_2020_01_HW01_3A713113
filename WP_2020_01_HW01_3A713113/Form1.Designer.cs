@@ -66,11 +66,11 @@ namespace WP_2020_01_HW01_3A713113
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("新細明體-ExtB", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.Location = new System.Drawing.Point(466, 120);
+            this.label1.Location = new System.Drawing.Point(509, 120);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(280, 24);
+            this.label1.Size = new System.Drawing.Size(184, 24);
             this.label1.TabIndex = 3;
-            this.label1.Text = "請將需要轉換的字串輸入:";
+            this.label1.Text = "請輸入您的姓名:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -81,13 +81,13 @@ namespace WP_2020_01_HW01_3A713113
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(118, 24);
             this.label2.TabIndex = 4;
-            this.label2.Text = "轉換結果:";
+            this.label2.Text = "剩餘天數:";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1316, 723);
+            this.ClientSize = new System.Drawing.Size(1208, 584);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.rtb1);

@@ -34,7 +34,12 @@ namespace WP_2020_01_HW01_3A713113
             byte[] crypto = md5.ComputeHash(source);//進行MD5加密
             string result = Convert.ToBase64String(crypto);//把加密後的字串從Byte[]轉為字串
             //Response.Write("MD5加密:  " + result);//輸出結果
-            rtb1.Text= "輸出結果:  " + result;//輸出結果
+            byte[] aa = Encoding.Default.GetBytes(result);
+        
+            int asciicode = (short)(aa[0]);
+            Convert.ToString(asciicode);
+
+            rtb1.Text = "您的剩餘存活天數:  " + asciicode;//.Substring(1,2);//輸出結果
 
 
 
