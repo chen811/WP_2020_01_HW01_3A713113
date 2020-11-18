@@ -39,7 +39,7 @@ namespace WP_2020_01_HW01_3A713113
             int asciicode = (short)(aa[0]);
             Convert.ToString(asciicode);
 
-            rtb1.Text = "您的剩餘存活天數:  " + asciicode;//.Substring(1,2);//輸出結果
+            rtb1.Text = "您的剩餘存活天數:  " + asciicode;//.Substring(1,2);// 輸出結果
 
 
 
